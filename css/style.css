@@ -10,7 +10,7 @@
 */
 @font-face {
     font-family: 'Philosopher Regular';
-    src: local("Roboto");
+    src: local("Philosopher");
     src: url('../fonts/Philosopher.eot');
     src: url('../fonts/Philosopher.eot?#iefix') format('embedded-opentype'),
     url('../fonts/Philosopher.woff') format('woff'),
@@ -21,7 +21,7 @@
 
 @font-face {
     font-family: 'Philosopher Bold';
-    src: local("Roboto");
+    src: local("Philosopher");
     src: url('../fonts/Philosopher-Bold.eot');
     src: url('../fonts/Philosopher-Bold.eot?#iefix') format('embedded-opentype'),
     url('../fonts/Philosopher-Bold.woff') format('woff'),
@@ -83,7 +83,7 @@ a {
 }
 
 a:hover {
-  color: F15B40;
+  color: #F15B40;
 }
 
 li {
