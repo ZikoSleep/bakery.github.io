@@ -196,5 +196,6 @@ footer{
 	height: 80px;
 }
 .marquee{
+	display: block;
 	text-align: center;
 }
