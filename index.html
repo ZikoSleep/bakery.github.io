@@ -8,7 +8,9 @@
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="script"  href="js/script.js">
-
+	
+	<script src="https://lidrekon.ru/slep/js/jquery.js"></script>
+	<script src="https://lidrekon.ru/slep/js/uhpv-full.min.js"></script>
 </head>
 <body>
 
@@ -23,6 +25,29 @@
 			<li><a href="#">МЕНЮ</a></li>
 			<li><a href="#">КОНТАКТЫ</a></li>
 		</ul>
+
+		<a  id="specialButton" href="#"><img src="https://lidrekon.ru/images/special.png" id='glazd' alt="ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ" title="ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ"  /></a>
+		<style>
+		@media screen and (max-width: 980px) {
+    	#glazd {
+        position:absolute;
+        top:10px;
+        right:100px;
+        z-index: 99999;
+        width:50px;
+    	}
+		}
+		@media screen and (min-width: 980px) {
+    	#glazd {
+        position:absolute;
+        top:20px;
+        left:50px;
+        z-index: 99999;
+        width:50px;
+   		}
+		}
+
+		</style>
 	</nav>
 	
 	<main>
